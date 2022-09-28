@@ -73,6 +73,10 @@ HttpOnly is another important attribute of a cookie. It ensures that the cookie 
 Not all browsers support the HttpOnly flag. The good news is most of them do, but if it doesn’t, it will ignore the HttpOnly flag even if it is set during cookie creation. Cookies should always be HttpOnly unless the browser doesn’t support it or there is a requirement to expose them to clients' scripts.
 
 
+### Same Site Cookie
+Reference: https://www.springcloud.io/post/2022-04/spring-samesite/#gsc.tab=0
+- Including ways to implement same-site
+
 ## Note:
 - Keeping the cookie alive after the user logs out can seriously compromise the security.
 
